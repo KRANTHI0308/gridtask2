@@ -13,3 +13,13 @@ div > img{
     background-color: lightseagreen;
     border-radius: 80px;
 }
+@media screen and (max-width : 420px){
+    .container{
+        grid-template-columns:repeat(1,1fr)
+    }
+}
+    @media screen and (max-width : 580px){
+        .container{
+            grid-template-columns: repeat(3,1fr);
+        }
+    }
